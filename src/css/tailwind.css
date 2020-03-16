@@ -8960,70 +8960,37 @@ video {
   position: sticky;
 }
 
-.inset-0 {
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.inset-5px {
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  left: 5px;
 }
 
-.inset-auto {
-  top: auto;
-  right: auto;
-  bottom: auto;
-  left: auto;
+.inset-y-5px {
+  top: 5px;
+  bottom: 5px;
 }
 
-.inset-y-0 {
-  top: 0;
-  bottom: 0;
+.inset-x-5px {
+  right: 5px;
+  left: 5px;
 }
 
-.inset-x-0 {
-  right: 0;
-  left: 0;
+.top-5px {
+  top: 5px;
 }
 
-.inset-y-auto {
-  top: auto;
-  bottom: auto;
+.right-5px {
+  right: 5px;
 }
 
-.inset-x-auto {
-  right: auto;
-  left: auto;
+.bottom-5px {
+  bottom: 5px;
 }
 
-.top-0 {
-  top: 0;
-}
-
-.right-0 {
-  right: 0;
-}
-
-.bottom-0 {
-  bottom: 0;
-}
-
-.left-0 {
-  left: 0;
-}
-
-.top-auto {
-  top: auto;
-}
-
-.right-auto {
-  right: auto;
-}
-
-.bottom-auto {
-  bottom: auto;
-}
-
-.left-auto {
-  left: auto;
+.left-5px {
+  left: 5px;
 }
 
 .resize-none {
@@ -21526,70 +21493,37 @@ video {
     position: sticky;
   }
 
-  .sm\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  .sm\:inset-5px {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
   }
 
-  .sm\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .sm\:inset-y-5px {
+    top: 5px;
+    bottom: 5px;
   }
 
-  .sm\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .sm\:inset-x-5px {
+    right: 5px;
+    left: 5px;
   }
 
-  .sm\:inset-x-0 {
-    right: 0;
-    left: 0;
+  .sm\:top-5px {
+    top: 5px;
   }
 
-  .sm\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .sm\:right-5px {
+    right: 5px;
   }
 
-  .sm\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .sm\:bottom-5px {
+    bottom: 5px;
   }
 
-  .sm\:top-0 {
-    top: 0;
-  }
-
-  .sm\:right-0 {
-    right: 0;
-  }
-
-  .sm\:bottom-0 {
-    bottom: 0;
-  }
-
-  .sm\:left-0 {
-    left: 0;
-  }
-
-  .sm\:top-auto {
-    top: auto;
-  }
-
-  .sm\:right-auto {
-    right: auto;
-  }
-
-  .sm\:bottom-auto {
-    bottom: auto;
-  }
-
-  .sm\:left-auto {
-    left: auto;
+  .sm\:left-5px {
+    left: 5px;
   }
 
   .sm\:resize-none {
@@ -34093,70 +34027,37 @@ video {
     position: sticky;
   }
 
-  .md\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  .md\:inset-5px {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
   }
 
-  .md\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .md\:inset-y-5px {
+    top: 5px;
+    bottom: 5px;
   }
 
-  .md\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .md\:inset-x-5px {
+    right: 5px;
+    left: 5px;
   }
 
-  .md\:inset-x-0 {
-    right: 0;
-    left: 0;
+  .md\:top-5px {
+    top: 5px;
   }
 
-  .md\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .md\:right-5px {
+    right: 5px;
   }
 
-  .md\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .md\:bottom-5px {
+    bottom: 5px;
   }
 
-  .md\:top-0 {
-    top: 0;
-  }
-
-  .md\:right-0 {
-    right: 0;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0;
-  }
-
-  .md\:left-0 {
-    left: 0;
-  }
-
-  .md\:top-auto {
-    top: auto;
-  }
-
-  .md\:right-auto {
-    right: auto;
-  }
-
-  .md\:bottom-auto {
-    bottom: auto;
-  }
-
-  .md\:left-auto {
-    left: auto;
+  .md\:left-5px {
+    left: 5px;
   }
 
   .md\:resize-none {
@@ -46660,70 +46561,37 @@ video {
     position: sticky;
   }
 
-  .lg\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  .lg\:inset-5px {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
   }
 
-  .lg\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .lg\:inset-y-5px {
+    top: 5px;
+    bottom: 5px;
   }
 
-  .lg\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .lg\:inset-x-5px {
+    right: 5px;
+    left: 5px;
   }
 
-  .lg\:inset-x-0 {
-    right: 0;
-    left: 0;
+  .lg\:top-5px {
+    top: 5px;
   }
 
-  .lg\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .lg\:right-5px {
+    right: 5px;
   }
 
-  .lg\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .lg\:bottom-5px {
+    bottom: 5px;
   }
 
-  .lg\:top-0 {
-    top: 0;
-  }
-
-  .lg\:right-0 {
-    right: 0;
-  }
-
-  .lg\:bottom-0 {
-    bottom: 0;
-  }
-
-  .lg\:left-0 {
-    left: 0;
-  }
-
-  .lg\:top-auto {
-    top: auto;
-  }
-
-  .lg\:right-auto {
-    right: auto;
-  }
-
-  .lg\:bottom-auto {
-    bottom: auto;
-  }
-
-  .lg\:left-auto {
-    left: auto;
+  .lg\:left-5px {
+    left: 5px;
   }
 
   .lg\:resize-none {
@@ -59227,70 +59095,37 @@ video {
     position: sticky;
   }
 
-  .xl\:inset-0 {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  .xl\:inset-5px {
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
   }
 
-  .xl\:inset-auto {
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+  .xl\:inset-y-5px {
+    top: 5px;
+    bottom: 5px;
   }
 
-  .xl\:inset-y-0 {
-    top: 0;
-    bottom: 0;
+  .xl\:inset-x-5px {
+    right: 5px;
+    left: 5px;
   }
 
-  .xl\:inset-x-0 {
-    right: 0;
-    left: 0;
+  .xl\:top-5px {
+    top: 5px;
   }
 
-  .xl\:inset-y-auto {
-    top: auto;
-    bottom: auto;
+  .xl\:right-5px {
+    right: 5px;
   }
 
-  .xl\:inset-x-auto {
-    right: auto;
-    left: auto;
+  .xl\:bottom-5px {
+    bottom: 5px;
   }
 
-  .xl\:top-0 {
-    top: 0;
-  }
-
-  .xl\:right-0 {
-    right: 0;
-  }
-
-  .xl\:bottom-0 {
-    bottom: 0;
-  }
-
-  .xl\:left-0 {
-    left: 0;
-  }
-
-  .xl\:top-auto {
-    top: auto;
-  }
-
-  .xl\:right-auto {
-    right: auto;
-  }
-
-  .xl\:bottom-auto {
-    bottom: auto;
-  }
-
-  .xl\:left-auto {
-    left: auto;
+  .xl\:left-5px {
+    left: 5px;
   }
 
   .xl\:resize-none {

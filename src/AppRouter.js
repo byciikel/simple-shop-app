@@ -1,13 +1,13 @@
 import React from 'react'
 import { HashRouter, Route, Switch } from "react-router-dom";
 
-import AppPage from './App'
+import HomePage from './pages/HomePage'
 
 function AppRouter() {
   return (
     <HashRouter>
       <Switch>
-        <Route exact path="/" component={ AppPage } />
+        <Route exact path="/" component={ HomePage } />
       </Switch>
     </HashRouter>
   )

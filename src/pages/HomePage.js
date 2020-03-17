@@ -1,4 +1,8 @@
 import React from 'react'
+import { observer } from 'mobx-react'
+
+import Store from '../store/Store'
+
 import Header from '../components/Header'
 import Card from '../components/Card'
 
@@ -11,4 +15,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default observer(HomePage)

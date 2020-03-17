@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AppRouter from './AppRouter'
+import AppRouter from './router/AppRouter'
 import * as serviceWorker from './serviceWorker';
 
 import './css/tailwind.css'

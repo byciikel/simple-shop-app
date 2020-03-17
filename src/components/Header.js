@@ -27,7 +27,7 @@ function Header(props) {
       <div className="w-3/4 flex flex-wrap justify-between items-center">
         <LeftMenu { ...props } />
         <div>
-          <div className="absolute top-0 right-0 -mt-3 ml-4 px-3 py-1 bg-red-500 rounded-full text-sm">0</div>
+          <div className="absolute -mt-3 ml-4 px-3 py-1 bg-red-500 rounded-full text-sm text-white">0</div>
           <IosCart color="#FFF" fontSize="2em" />
         </div>
       </div>

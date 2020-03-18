@@ -5,6 +5,7 @@ import { observer } from 'mobx-react'
 import Store from '../store/Store'
 
 import HomePage from '../pages/HomePage'
+import CheckoutPage from '../pages/CheckoutPage'
 
 function AppRouter() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function AppRouter() {
     <HashRouter>
       <Switch>
         <Route exact path="/" component={ HomePage } />
+        <Route exact path="/checkout" component={ CheckoutPage } />
       </Switch>
     </HashRouter>
   )

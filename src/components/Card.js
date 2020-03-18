@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import _ from 'lodash'
 
 function Card({ product, onEvent, cart }) {
@@ -26,9 +27,9 @@ function Card({ product, onEvent, cart }) {
             <button onClick={() => onEvent('decrement', product)} className="bg-transparent hover:bg-red-500 text-red-500 hover:text-white h-full px-3 rounded-lg cursor-pointer outline-none focus:outline-none mr-2 border border-red-500">
               <span className="text-md font-semibold">−</span>
             </button>
-            <a href="#" className="bg-transparent hover:bg-blue-400 text-blue-400 hover:text-white h-full rounded-lg cursor-pointer outline-none focus:outline-none border border-blue-400 px-3 flex justify-center items-center">
+            <Link to="/checkout" className="bg-transparent hover:bg-blue-400 text-blue-400 hover:text-white h-full rounded-lg cursor-pointer outline-none focus:outline-none border border-blue-400 px-3 flex justify-center items-center">
               <span className="text-md font-semibold">CHECKOUT</span>
-            </a>
+            </Link>
             <button onClick={() => onEvent('increment', product)} className="bg-transparent hover:bg-teal-500 text-teal-500 hover:text-white h-full px-3 rounded-lg cursor-pointer outline-none focus:outline-none ml-2 border border-teal-500">
               <span className="text-md font-semibold">+</span>
             </button>

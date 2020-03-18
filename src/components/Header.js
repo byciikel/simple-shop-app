@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import MdPricetags from 'react-ionicons/lib/MdPricetags'
 import IosCart from 'react-ionicons/lib/IosCart'
 import MdArrowRoundBack from 'react-ionicons/lib/MdArrowRoundBack'
@@ -6,10 +7,10 @@ import MdArrowRoundBack from 'react-ionicons/lib/MdArrowRoundBack'
 function LeftMenu({ hasBackButton, backUrl }) {
   if (hasBackButton) {
     return (
-      <a href={"#/" + backUrl} className="flex items-center flex-shrink-0 text-white mr-6">
+      <Link to={ backUrl } className="flex items-center flex-shrink-0 text-white mr-6">
         <MdArrowRoundBack color="#FFF" className="mr-3" />
         <span className="font-semibold text-xl tracking-tight">Back</span>
-      </a>
+      </Link>
     )
   } else {
     return (

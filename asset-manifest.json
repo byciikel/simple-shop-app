@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/simple-shop-app/static/css/main.f5764744.chunk.css",
+    "main.js": "/simple-shop-app/static/js/main.bd55aeec.chunk.js",
+    "main.js.map": "/simple-shop-app/static/js/main.bd55aeec.chunk.js.map",
+    "runtime-main.js": "/simple-shop-app/static/js/runtime-main.f6ebc64b.js",
+    "runtime-main.js.map": "/simple-shop-app/static/js/runtime-main.f6ebc64b.js.map",
+    "static/js/2.8538cd1d.chunk.js": "/simple-shop-app/static/js/2.8538cd1d.chunk.js",
+    "static/js/2.8538cd1d.chunk.js.map": "/simple-shop-app/static/js/2.8538cd1d.chunk.js.map",
+    "index.html": "/simple-shop-app/index.html",
+    "precache-manifest.9b6403cff3b8c37589cd097cd8a49850.js": "/simple-shop-app/precache-manifest.9b6403cff3b8c37589cd097cd8a49850.js",
+    "service-worker.js": "/simple-shop-app/service-worker.js",
+    "static/css/main.f5764744.chunk.css.map": "/simple-shop-app/static/css/main.f5764744.chunk.css.map",
+    "static/js/2.8538cd1d.chunk.js.LICENSE.txt": "/simple-shop-app/static/js/2.8538cd1d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6ebc64b.js",
+    "static/js/2.8538cd1d.chunk.js",
+    "static/css/main.f5764744.chunk.css",
+    "static/js/main.bd55aeec.chunk.js"
+  ]
+}

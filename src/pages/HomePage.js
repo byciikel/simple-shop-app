@@ -10,7 +10,7 @@ import Card from '../components/Card'
 const HomePage = () => {
   const [countProduct, setCountProduct] = useState(1)
   const [productList, setProductLIst] = useState([])
-  const [isMore, tootgleMore] = useState(true)
+  const [isMore, toggleMore] = useState(true)
   const product = Store.products[0]
 
   useEffect(() => {
@@ -23,7 +23,7 @@ const HomePage = () => {
       setProductLIst(nextProduct)
       setCountProduct(countProduct + 1)
     } else {
-      tootgleMore(false)
+      toggleMore(false)
     }
   }
 

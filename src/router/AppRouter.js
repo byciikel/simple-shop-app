@@ -7,7 +7,7 @@ import Store from '../store/Store'
 import HomePage from '../pages/HomePage'
 import CheckoutPage from '../pages/CheckoutPage'
 
-function AppRouter() {
+const AppRouter = () => {
   useEffect(() => {
     Store.fetchProduct()
   }, [])

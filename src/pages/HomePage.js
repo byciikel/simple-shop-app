@@ -7,7 +7,7 @@ import Store from '../store/Store'
 import Header from '../components/Header'
 import Card from '../components/Card'
 
-function HomePage() {
+const HomePage = () => {
   const [countProduct, setCountProduct] = useState(1)
   const [productList, setProductLIst] = useState([])
   const [isMore, tootgleMore] = useState(true)

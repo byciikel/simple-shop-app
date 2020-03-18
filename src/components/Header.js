@@ -4,7 +4,7 @@ import MdPricetags from 'react-ionicons/lib/MdPricetags'
 import IosCart from 'react-ionicons/lib/IosCart'
 import MdArrowRoundBack from 'react-ionicons/lib/MdArrowRoundBack'
 
-function LeftMenu({ hasBackButton, backUrl }) {
+const LeftMenu = ({ hasBackButton, backUrl }) => {
   if (hasBackButton) {
     return (
       <Link to={ backUrl } className="flex items-center flex-shrink-0 text-white mr-6">
@@ -22,7 +22,7 @@ function LeftMenu({ hasBackButton, backUrl }) {
   }
 }
 
-function Header(props) {
+const Header = (props) => {
   return (
     <nav className="flex justify-center bg-teal-500 p-6">
       <div className="w-3/4 flex flex-wrap justify-between items-center">

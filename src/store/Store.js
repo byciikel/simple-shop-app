@@ -28,6 +28,9 @@ class Store {
         _.pullAt(this.cart, [indexOfCart])
         this.cart = [...this.cart]
         break
+      case 'reset':
+        this.cart = product
+        break
       default: break
     }
   }

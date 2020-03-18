@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import _ from 'lodash'
 
-function Card({ product, onEvent, cart }) {
+const Card = ({ product, onEvent, cart }) => {
   const sumItem = _.countBy(cart, 'id')
   const itemName = Object.getOwnPropertyNames(sumItem)
 
@@ -11,7 +11,7 @@ function Card({ product, onEvent, cart }) {
       <div className="bg-white relative shadow p-2 rounded-lg text-gray-800 hover:shadow-lg">
         {itemName.map((name, index) => product.id.toString() === name ?
           <div key={ index } className="absolute mt-4 rounded-r-full text-center font-bold text-xs text-white px-2 py-1 bg-orange-500">
-            { sumItem[name] } Ditambahkan
+            { sumItem[name] } Item(s)
           </div>
         : 
           <div key={ index } /> 
@@ -27,7 +27,9 @@ function Card({ product, onEvent, cart }) {
             <button onClick={() => onEvent('decrement', product)} className="bg-transparent hover:bg-red-500 text-red-500 hover:text-white h-full px-3 rounded-lg cursor-pointer outline-none focus:outline-none mr-2 border border-red-500">
               <span className="text-md font-semibold">−</span>
             </button>
-            <Link to="/checkout" className="bg-transparent hover:bg-blue-400 text-blue-400 hover:text-white h-full rounded-lg cursor-pointer outline-none focus:outline-none border border-blue-400 px-3 flex justify-center items-center">
+            <Link
+              to="/checkout"
+              className="bg-transparent hover:bg-blue-400 text-blue-400 hover:text-white h-full rounded-lg cursor-pointer outline-none focus:outline-none border border-blue-400 px-3 flex justify-center items-center">
               <span className="text-md font-semibold">CHECKOUT</span>
             </Link>
             <button onClick={() => onEvent('increment', product)} className="bg-transparent hover:bg-teal-500 text-teal-500 hover:text-white h-full px-3 rounded-lg cursor-pointer outline-none focus:outline-none ml-2 border border-teal-500">

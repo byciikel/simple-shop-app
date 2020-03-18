@@ -31,11 +31,9 @@ function HomePage() {
     Store.setCart(action, product)
   }
 
-  // console.log(Store.cart)
-
   return (
     <div>
-      <Header hasBackButton={false} />
+      <Header hasBackButton={ false } cart={ Store.cart } />
       {productList ? 
         <InfiniteScroll
           dataLength={productList.length}

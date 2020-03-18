@@ -15,11 +15,29 @@ class Store {
     const chunkProducts = _.chunk(products, 9)
     this.setProduct(chunkProducts)
   }
+
+  cart = []
+
+  setCart(action, product) {
+    switch (action) {
+      case 'increment':
+        this.cart = [...this.cart, product]
+        break
+      case 'decrement':
+        let indexOfCart = _.findIndex(this.cart, { 'id': product.id })
+        _.pullAt(this.cart, [indexOfCart])
+        this.cart = [...this.cart]
+        break
+      default: break
+    }
+  }
 }
 
 decorate(Store, {
   products: observable,
   listProduct: observable,
+  cart: observable,
+  setCart: action
 })
 
 const newStore = new Store()

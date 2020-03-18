@@ -11,10 +11,11 @@ function HomePage() {
   const [countProduct, setCountProduct] = useState(1)
   const [productList, setProductLIst] = useState([])
   const [isMore, tootgleMore] = useState(true)
+  const product = Store.products[0]
 
   useEffect(() => {
-    setProductLIst(Store.products[0])
-  }, [Store.products])
+    setProductLIst(product)
+  }, [product])
 
   const fetchMoreData = () => {
     if (Store.products[countProduct]) {
@@ -25,6 +26,12 @@ function HomePage() {
       tootgleMore(false)
     }
   }
+
+  const handleEvent = (action, product) => {
+    Store.setCart(action, product)
+  }
+
+  // console.log(Store.cart)
 
   return (
     <div>
@@ -47,7 +54,12 @@ function HomePage() {
         >
           <div className="sm:w-full md:w-3/4 flex flex-wrap justify-center md:justify-start mx-auto my-0">
             {productList.map((product, index) => (
-              <Card key={ index } product={ product } />
+              <Card
+                key={ index }
+                product={ product }
+                onEvent={(action, product) => handleEvent(action, product)}
+                cart={ Store.cart }
+              />
             ))}
           </div>
         </InfiniteScroll>
